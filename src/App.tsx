@@ -5,6 +5,7 @@ import Industries from './components/Industries';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import SEO from './components/SEO';
+import Experience from './components/Experience';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Hero />
         <TechStack />
         <Industries />
+        <Experience />
         <Projects />
         <Contact />
       </main>

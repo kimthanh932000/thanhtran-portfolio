@@ -33,6 +33,24 @@ const Hero = () => {
           </div>
         </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="mt-20 text-center"
+        >
+          <div className="inline-flex items-center justify-center p-4 bg-white dark:bg-gray-800 rounded-full shadow-lg mb-16">
+            <span className="relative flex h-3 w-3 mr-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-600"></span>
+            </span>
+            <p className="text-gray-600 dark:text-gray-300">
+              Currently available for new opportunities
+            </p>
+          </div>
+        </motion.div>
+
         {/* Tech Stack Pills */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

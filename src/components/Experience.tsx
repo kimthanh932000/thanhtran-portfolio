@@ -3,21 +3,6 @@ import { motion } from 'framer-motion';
 import { FaBriefcase } from 'react-icons/fa';
 import { experiences } from '../data/experiences';
 
-const fadeInVariants = {
-  hidden: {
-    opacity: 0,
-    x: -20
-  },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut"
-    }
-  }
-};
-
 const WorkTimeline: React.FC = () => {
     return (
         <section className="min-h-screen py-20 bg-white dark:bg-gray-900">

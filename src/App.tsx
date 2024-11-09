@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import SEO from './components/SEO';
 import Experience from './components/Experience';
 import ResumeDownload from './components/ResumeDownload';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
               <a href="#tech" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Tech Stack</a>
               <a href="#industries" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Industries</a>
               <a href="#projects" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Projects</a>
+              <a href="#testimonials" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Testimonials</a>
               <a href="#contact" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Contact</a>
             </div>
           </div>
@@ -35,6 +37,7 @@ const App = () => {
         <Industries />
         <Experience />
         <Projects />
+        <Testimonials />
         <ResumeDownload />
         <Contact />
       </main>

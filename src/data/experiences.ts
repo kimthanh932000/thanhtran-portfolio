@@ -10,26 +10,10 @@ export interface WorkExperience {
 export const experiences: WorkExperience[] = [
     {
       id: 1,
-      position: "Senior Frontend Developer",
-      company: "Tech Corp",
-      timeFrame: "2022 - Present",
-      technologies: ["React", "TypeScript", "Tailwind"],
-      description: "Led frontend development efforts for multiple high-impact projects, focusing on performance optimization and component reusability."
-    },
-    {
-      id: 2,
-      position: "Full Stack Developer",
-      company: "Digital Solutions",
-      timeFrame: "2020 - 2022",
-      technologies: ["Node.js", "Express", "MongoDB"],
-      description: "Developed and maintained full-stack applications, implementing RESTful APIs and improving database performance."
-    },
-    {
-      id: 3,
-      position: "Junior Developer",
-      company: "Startup Inc",
-      timeFrame: "2018 - 2020",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      description: "Collaborated on frontend development tasks and learned modern web development practices in an agile environment."
+      position: "Mid-level Frontend Developer",
+      company: "KAMORA Digital Studio",
+      timeFrame: "2020 - 2024",
+      technologies: ["ReactJS", "NextJS", "NodeJS", "GraphQL"],
+      description: "Served as a core frontend developer for the company’s main product, driving continuous improvements in performance, scalability, and user experience. Collaborated closely with cross-functional teams to deliver new features, maintain long-term code quality, and ensure the platform’s reliability for thousands of users."
     }
   ];

@@ -1,19 +1,12 @@
 import { motion } from 'framer-motion';
 import { industries } from '../data/industries';
 import { 
-  FaChartLine, FaMedkit, FaGraduationCap, FaHome, 
-  FaShoppingCart, FaBuilding, FaTruck 
+  FaChartLine, FaGraduationCap
 } from 'react-icons/fa';
 
 const getIndustryIcon = (name: string) => {
   switch (name.toLowerCase()) {
-    case 'finance': return FaChartLine;
-    case 'healthcare': return FaMedkit;
     case 'education': return FaGraduationCap;
-    case 'home automation': return FaHome;
-    case 'e-commerce': return FaShoppingCart;
-    case 'real estate': return FaBuilding;
-    case 'transportation': return FaTruck;
     default: return FaChartLine;
   }
 };
@@ -30,9 +23,6 @@ const Industries = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-4">Industries I've Worked In</h2>
-          <p className="text-gray-600 dark:text-gray-300 text-lg">
-            Diverse experience across multiple sectors, delivering innovative solutions
-          </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

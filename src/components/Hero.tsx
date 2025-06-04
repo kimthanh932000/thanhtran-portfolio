@@ -13,10 +13,10 @@ const Hero = () => {
           className="text-center mb-12"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
-            Hi, I'm <span className="text-primary">Oritro</span>
+            Hi, I'm <span className="text-primary">Thanh</span>
           </h1>
           <p className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 font-medium">
-            I build stuff with code
+            Frontend Developer focused on performance, accessibility, and clean UI.
           </p>
         </motion.div>
 
@@ -28,7 +28,7 @@ const Hero = () => {
           className="flex justify-center mb-16"
         >
           <div className="text-center">
-            <span className="text-5xl md:text-6xl font-bold text-primary">13</span>
+            <span className="text-5xl md:text-6xl font-bold text-primary">4</span>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mt-2">YEARS EXPERIENCE</p>
           </div>
         </motion.div>
@@ -78,11 +78,13 @@ const Hero = () => {
           className="max-w-4xl mx-auto"
         >
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Who, What and Why!</h2>
-          
+
           {/* Professional Experience */}
           <div className="prose prose-lg dark:prose-invert max-w-none mb-8">
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              As a seasoned technology professional with over 11 years of experience, I have had the privilege of working with various industries including <span className="text-primary font-medium">finance</span>, <span className="text-primary font-medium">healthcare</span>, <span className="text-primary font-medium">education</span>, and more. My most recent experience was as a <span className="font-medium">Lead Software Engineer</span> at <span className="font-medium">Montex Marketing LLC</span>, where I excelled in <span className="text-primary font-medium">microservices architecture</span> and mentoring new employees.
+              As a <span className="text-primary font-medium">frontend developer</span> with over 4 years of experience, I have dedicated my career to <span className="text-primary font-medium">building and evolving</span> a <span className="text-primary font-medium">production-grade web application</span> at a product-focused company.
+              From the very beginning, I have worked on the same platform — refining, optimizing, and expanding its features — which has given me a deep understanding of scalable frontend architecture and long-term code maintenance.
+              This long-term involvement allowed me to take ownership of critical UI components, implement <span className="text-primary font-medium">performance improvements</span>, and collaborate closely with <span className="text-primary font-medium">cross-functional teams</span> to deliver a <span className="text-primary font-medium">seamless user experience</span>.
             </p>
           </div>
 
@@ -90,10 +92,10 @@ const Hero = () => {
           <div className="text-gray-700 dark:text-gray-300 leading-relaxed">
             <h3 className="text-xl font-bold mb-4">Technical Expertise</h3>
             <p className="mb-4">
-              I possess a wide range of technical skills, including proficiency in multiple programming languages such as <span className="text-primary font-medium">PHP</span>, <span className="text-primary font-medium">Python</span>, <span className="text-primary font-medium">Go Lang</span>, <span className="text-primary font-medium">JavaScript</span>, <span className="text-primary font-medium">Nodejs</span>, and <span className="text-primary font-medium">Rust</span>.
+              I possess a wide range of technical skills, including proficiency in multiple programming languages such as <span className="text-primary font-medium">JavaScript</span>, <span className="text-primary font-medium">Nodejs</span>, and <span className="text-primary font-medium">HTML/CSS</span>.
             </p>
             <p>
-              I am well-versed in a variety of frameworks and technologies, including <span className="text-primary font-medium">Symfony</span>, <span className="text-primary font-medium">Laravel</span>, <span className="text-primary font-medium">Vuejs</span>, <span className="text-primary font-medium">Express js</span>, and <span className="text-primary font-medium">Flutter</span>. My expertise also extends to databases, operating systems, cloud services, and containerization.
+              I am well-versed in a variety of frameworks and technologies, including <span className="text-primary font-medium">Reactjs</span>, <span className="text-primary font-medium">Nextjs</span>, and <span className="text-primary font-medium">ExpressJS</span>. My expertise also extends to databases.
             </p>
           </div>
         </motion.div>

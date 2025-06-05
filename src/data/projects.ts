@@ -1,59 +1,43 @@
+import blogPng from '../assets/wph/blog.png';
+import calculatorPng from '../assets/wph/calculator.png';
+import indexPng from '../assets/wph/index.png';
+import orderPage01Jpg from '../assets/wph/order-page-01.jpg';
+import orderPage02Jpg from '../assets/wph/order-page-02.jpg';
+import writersPng from '../assets/wph/writers.png';
+
 export interface ProjectImage {
-    url: string;
-    alt: string;
-  }
-  
-  export interface Project {
-    id: string;
-    title: string;
-    shortDescription: string;
-    fullDescription: string;
-    techStack: string[];
-    images: ProjectImage[];
-    featured: boolean;
-    githubUrl?: string;
-    liveUrl?: string;
-  }
-  
-  export const projects: Project[] = [
-    {
-      id: "fleet-management",
-      title: "Fleet Management System",
-      shortDescription: "Real-time fleet tracking and management system with analytics",
-      fullDescription: "A comprehensive fleet management solution that provides real-time tracking, maintenance scheduling, fuel management, and detailed analytics. Features include real-time GPS tracking, driver behavior monitoring, maintenance alerts, and fuel consumption optimization.",
-      techStack: ["Symfony", "Vue.js", "PostgreSQL", "Docker", "Grafana"],
-      images: Array.from({ length: 6 }, (_, i) => ({
-        url: `https://picsum.photos/800/600`,
-        alt: `Fleet Management System Screenshot ${i + 1}`
-      })),
-      featured: true,
-      githubUrl: "https://github.com/yourusername/fleet-management",
-      liveUrl: "https://fleet.example.com"
-    },
-    {
-      id: "healthcare-platform",
-      title: "Healthcare Management Platform",
-      shortDescription: "Patient management and telemedicine platform",
-      fullDescription: "An integrated healthcare management platform that streamlines patient care, appointment scheduling, and telemedicine services. Includes features for electronic health records, secure video consultations, prescription management, and automated appointment reminders.",
-      techStack: ["Laravel", "Node.js", "Vue.js", "MySQL", "WebRTC"],
-      images: Array.from({ length: 8 }, (_, i) => ({
-        url: `https://picsum.photos/800/600`,
-        alt: `Healthcare Platform Screenshot ${i + 1}`
-      })),
-      featured: true,
-      githubUrl: "https://github.com/yourusername/healthcare-platform",
-      liveUrl: "https://health.example.com"
-    },
-    {
-      id: "home-automation",
-      title: "Smart Home Hub",
-      shortDescription: "Centralized home automation control system",
-      fullDescription: "A comprehensive home automation system that integrates various IoT devices and provides a unified control interface. Features include automated scheduling, energy monitoring, security system integration, and voice control capabilities.",
-      techStack: ["Python", "Home Assistant", "Node.js", "MQTT", "React"],
-      images: Array.from({ length: 5 }, (_, i) => ({
-        url: `https://picsum.photos/800/600`,
-        alt: `Smart Home Hub Screenshot ${i + 1}`
-      })),
-      featured: true
-    }
-  ];
+  url: string;
+  alt: string;
+}
+
+export interface Project {
+  id: string;
+  title: string;
+  shortDescription: string;
+  fullDescription: string;
+  techStack: string[];
+  images: ProjectImage[];
+  featured: boolean;
+  githubUrl?: string;
+  liveUrl?: string;
+}
+
+export const projects: Project[] = [
+  {
+    id: "wph",
+    title: "Writers Per Hour",
+    shortDescription: "Academic writing service specializing in custom essays, research papers, and assignments.",
+    fullDescription: "Writers Per Hour is a professional academic writing service that helps students with custom essays, research papers, coursework, and assignments. The platform connects clients with expert writers across various subjects, ensuring original, plagiarism-free content delivered on time. With 24/7 support, transparent pricing, and a commitment to confidentiality, Writers Per Hour is trusted by students worldwide for high-quality academic assistance.",
+    techStack: ["Next.js", "Node.js", "GraphQL API", "Restful API", "Headless CMS"],
+    images: [
+      { url: indexPng, alt: "Index Screenshot" },
+      { url: blogPng, alt: "Blog Screenshot" },
+      { url: calculatorPng, alt: "Calculator Screenshot" },
+      { url: orderPage01Jpg, alt: "Order Page 01 Screenshot" },
+      { url: orderPage02Jpg, alt: "Order Page 02 Screenshot" },
+      { url: writersPng, alt: "Writers Screenshot" },
+    ],
+    featured: true,
+    liveUrl: "https://writersperhour.com"
+  },
+];

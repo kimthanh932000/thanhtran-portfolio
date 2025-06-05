@@ -12,13 +12,13 @@ const ProjectModal = ({ project, onClose }: ModalProps) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextImage = () => {
-    setCurrentImageIndex((prev) => 
+    setCurrentImageIndex((prev) =>
       prev === project.images.length - 1 ? 0 : prev + 1
     );
   };
 
   const prevImage = () => {
-    setCurrentImageIndex((prev) => 
+    setCurrentImageIndex((prev) =>
       prev === 0 ? project.images.length - 1 : prev - 1
     );
   };
@@ -47,14 +47,14 @@ const ProjectModal = ({ project, onClose }: ModalProps) => {
             >
               <FaTimes className="w-6 h-6" />
             </button>
-            
+
             <div className="relative aspect-video">
               <img
                 src={project.images[currentImageIndex].url}
                 alt={project.images[currentImageIndex].alt}
                 className="w-full h-full object-cover"
               />
-              
+
               {project.images.length > 1 && (
                 <>
                   <button
@@ -72,7 +72,7 @@ const ProjectModal = ({ project, onClose }: ModalProps) => {
                 </>
               )}
             </div>
-            
+
 
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black bg-opacity-50 text-white px-4 py-2 rounded-full">
               {currentImageIndex + 1} / {project.images.length}
@@ -152,7 +152,7 @@ const Projects = () => {
         </motion.div>
 
         {/* Bento Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8`}>
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
@@ -161,9 +161,8 @@ const Projects = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               onClick={() => setSelectedProject(project)}
-              className={`cursor-pointer group ${
-                index === 0 ? 'md:col-span-2 md:row-span-2' : ''
-              }`}
+              className={`cursor-pointer group ${index === 0 ? 'md:col-span-2 md:row-span-2' : ''
+                }`}
             >
               <div className="bg-white dark:bg-gray-700 rounded-xl overflow-hidden h-full hover:shadow-xl transition-all duration-300">
                 <div className="relative aspect-video">

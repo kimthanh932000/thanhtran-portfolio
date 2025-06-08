@@ -7,7 +7,7 @@ interface ResumeDownloadProps {
 }
 
 const ResumeDownload: React.FC<ResumeDownloadProps> = ({ 
-  resumeUrl = '/path-to-your-resume.pdf',
+  resumeUrl = 'Thanh_Tran_Resume.pdf',
   onDownload 
 }) => {
   const handleDownload = () => {

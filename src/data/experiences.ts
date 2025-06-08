@@ -10,10 +10,10 @@ export interface WorkExperience {
 export const experiences: WorkExperience[] = [
     {
       id: 1,
-      position: "Mid-level Frontend Developer",
+      position: "Web Developer",
       company: "KAMORA Digital Studio",
       timeFrame: "2020 - 2024",
-      technologies: ["ReactJS", "NextJS", "NodeJS", "GraphQL"],
+      technologies: ["ReactJS", "NextJS", "NodeJS", "GraphQL API", "Restful API"],
       description: "Served as a core frontend developer for the company’s main product, driving continuous improvements in performance, scalability, and user experience. Collaborated closely with cross-functional teams to deliver new features, maintain long-term code quality, and ensure the platform’s reliability for thousands of users."
     }
   ];

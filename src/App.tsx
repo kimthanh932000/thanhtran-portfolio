@@ -21,10 +21,10 @@ const App = () => {
             <span className="text-xl font-bold text-primary">Oritro</span>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">About</a>
-              <a href="#tech" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Tech Stack</a>
+              {/* <a href="#tech" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Tech Stack</a> */}
               <a href="#industries" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Industries</a>
               <a href="#projects" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Projects</a>
-              <a href="#testimonials" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Testimonials</a>
+              {/* <a href="#testimonials" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Testimonials</a> */}
               <a href="#contact" className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition">Contact</a>
             </div>
           </div>
@@ -33,11 +33,11 @@ const App = () => {
 
       <main className="pt-16">
         <Hero />
-        <TechStack />
+        {/* <TechStack /> */}
         <Industries />
         <Experience />
         <Projects />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <ResumeDownload />
         <Contact />
       </main>

@@ -16,7 +16,7 @@ const Hero = () => {
             Hi, I'm <span className="text-primary">Thanh</span>
           </h1>
           <p className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 font-medium">
-            Frontend Developer focused on performance, accessibility, and clean UI.
+            Web Developer focused on performance, accessibility, and clean UI.
           </p>
         </motion.div>
 
@@ -82,9 +82,9 @@ const Hero = () => {
           {/* Professional Experience */}
           <div className="prose prose-lg dark:prose-invert max-w-none mb-8">
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              As a <span className="text-primary font-medium">frontend developer</span> with over 4 years of experience, I have dedicated my career to <span className="text-primary font-medium">building and evolving</span> a <span className="text-primary font-medium">production-grade web application</span> at a product-focused company.
-              From the very beginning, I have worked on the same platform — refining, optimizing, and expanding its features — which has given me a deep understanding of scalable frontend architecture and long-term code maintenance.
-              This long-term involvement allowed me to take ownership of critical UI components, implement <span className="text-primary font-medium">performance improvements</span>, and collaborate closely with <span className="text-primary font-medium">cross-functional teams</span> to deliver a <span className="text-primary font-medium">seamless user experience</span>.
+              As a <span className="text-primary font-medium">web developer</span> with over 4 years of experience, I have dedicated my career to developing and maitaining a <span className="text-primary font-medium">production-grade web application</span> at a product-focused company.
+              From the very beginning, I have worked on the same platform: refining, optimizing, and expanding its features, which has given me a deep understanding of scalable frontend architecture and code maintenance.
+              This long-term involvement allowed me to take ownership of critical UI components, implement <span className="text-primary font-medium">performance improvements</span>, and collaborate closely with cross-functional teams to deliver a seamless user experience.
             </p>
           </div>
 
@@ -95,7 +95,7 @@ const Hero = () => {
               I possess a wide range of technical skills, including proficiency in multiple programming languages such as <span className="text-primary font-medium">JavaScript</span>, <span className="text-primary font-medium">Nodejs</span>, and <span className="text-primary font-medium">HTML/CSS</span>.
             </p>
             <p>
-              I am well-versed in a variety of frameworks and technologies, including <span className="text-primary font-medium">Reactjs</span>, <span className="text-primary font-medium">Nextjs</span>, and <span className="text-primary font-medium">ExpressJS</span>. My expertise also extends to databases.
+              I am well-versed in a variety of frameworks and technologies, including <span className="text-primary font-medium">Reactjs</span>, <span className="text-primary font-medium">Nextjs</span>, and <span className="text-primary font-medium">ExpressJS</span>.
             </p>
           </div>
         </motion.div>

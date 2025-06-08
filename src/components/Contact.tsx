@@ -37,20 +37,20 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       title: "EMAIL",
-      value: "le@ioritro.com",
-      link: "mailto:le@ioritro.com"
+      value: "kimthanh932000@gmail.com",
+      link: "mailto:kimthanh932000@gmail.com"
     },
     {
       icon: FaLinkedin,
       title: "LINKEDIN",
-      value: "linkedin.com/in/oritromax",
-      link: "https://linkedin.com/in/oritromax"
+      value: "linkedin.com/in/vi-tran-217b40208",
+      link: "https://www.linkedin.com/in/vi-tran-217b40208/"
     },
     {
       icon: FaGithub,
       title: "GITHUB",
-      value: "github.com/oritromax",
-      link: "https://github.com/oritromax"
+      value: "github.com/kimthanh932000",
+      link: "https://github.com/kimthanh932000"
     }
   ];
 
@@ -88,7 +88,7 @@ const Contact = () => {
         </motion.div>
 
         <footer className="mt-20 text-center text-gray-500 dark:text-gray-400">
-          <p>© {new Date().getFullYear()} Oritro. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Thanh Tran. All rights reserved.</p>
         </footer>
       </div>
     </section>
